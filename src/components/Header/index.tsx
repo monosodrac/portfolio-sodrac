@@ -4,32 +4,32 @@ import { Container } from "../../styles";
 export default function Header() {
     return (
         <>
-            <S.Cabecalho>
-                <S.AreaCabecalho>
+            <S.Header>
+                <S.AreaHeader>
                     <Container>
-                        <S.ListaLinks to="/">
+                        <S.Title to="/">
                             MONOSODRAC
-                        </S.ListaLinks>
-                        <S.Lista>
+                        </S.Title>
+                        <S.List>
                             <li>
-                                <S.ListaLinks to="/">
+                                <S.ListLinks to="/">
                                     Projetos
-                                </S.ListaLinks>
+                                </S.ListLinks>
                             </li>
                             <li>
-                                <S.ListaLinks to="/">
+                                <S.ListLinks to="/">
                                     Experiência
-                                </S.ListaLinks>
+                                </S.ListLinks>
                             </li>
                             <li>
-                                <S.ListaLinks to="/">
+                                <S.ListLinks to="/">
                                     Formação
-                                </S.ListaLinks>
+                                </S.ListLinks>
                             </li>
-                        </S.Lista>
+                        </S.List>
                     </Container>
-                </S.AreaCabecalho>
-            </S.Cabecalho>
+                </S.AreaHeader>
+            </S.Header>
         </>
     );
 };

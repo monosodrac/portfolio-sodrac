@@ -1,11 +1,11 @@
-import { Ee } from "./styles";
+import * as S from "./styles";
 
 const Projects = () => (
-    <>
-        <Ee>
+    <S.Projects>
+        <>
             Lorem ipsum dolor sit amet consectetur adipisicing elit. Officiis, ipsam? Eveniet laborum suscipit beatae ut, minima animi dignissimos inventore, enim assumenda temporibus dolor illum tempora nulla incidunt libero! Voluptatem, repellendus?
-        </Ee>
-    </>
+        </>
+    </S.Projects>
 );
 
 export default Projects;

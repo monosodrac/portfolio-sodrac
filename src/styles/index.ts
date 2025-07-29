@@ -32,7 +32,6 @@ export const MainContainer = styled.main`
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    width: 90%;
     min-height: 100vh;
 `
 

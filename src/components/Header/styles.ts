@@ -1,14 +1,14 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
 
-export const Cabecalho = styled.header`
+export const Header = styled.header`
     position: fixed;
     top: 0;
     width: 100%;
     background-color: transparent;
 `
 
-export const AreaCabecalho = styled.div`
+export const AreaHeader = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
@@ -16,7 +16,17 @@ export const AreaCabecalho = styled.div`
     background-color: transparent;
 `
 
-export const Lista = styled.ul`
+export const Title = styled(Link)`
+    padding: 1rem;
+    font-size: 1rem;
+    font-weight: bolder;
+    text-decoration: none;
+    color: #fff;
+    border-bottom: 1px solid transparent;
+    background-color: transparent;
+`
+
+export const List = styled.ul`
     display: flex;
     gap: 1rem;
     flex-direction: row;
@@ -34,7 +44,7 @@ export const Lista = styled.ul`
     }
 `
 
-export const ListaLinks = styled(Link)`
+export const ListLinks = styled(Link)`
     padding: 1rem;
     font-size: 1rem;
     font-weight: bolder;

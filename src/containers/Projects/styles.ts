@@ -1,5 +1,6 @@
 import styled from "styled-components";
 
-export const Ee = styled.div`
+export const Projects = styled.div`
+    width: 100%;
     background-color: red;
 `
