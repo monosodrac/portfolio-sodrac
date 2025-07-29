@@ -1,14 +1,13 @@
-import Frase from '../../components/Frase';
+import Frase from '../../components/Phrase';
 import * as S from './styles';
 
 const TelaInicio = () => {
     return (
         <>
-            <S.AreaFrase>
+            <S.Livro>
                 <Frase />
-            </S.AreaFrase>
+            </S.Livro>
             <S.Inicio>
-                
             </S.Inicio>
         </>
     );

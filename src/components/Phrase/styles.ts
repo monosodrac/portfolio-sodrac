@@ -5,6 +5,7 @@ export const Frases = styled.div`
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: transparent;
 `
 
 export const AreaTexto = styled.div`

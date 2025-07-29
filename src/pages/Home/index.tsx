@@ -1,5 +1,6 @@
 import Header from "../../components/Header";
-import TelaInicio from "../../containers/Home";
+import TelaInicio from "../../containers/Hero";
+import Projects from "../../containers/Projects";
 import { MainContainer } from "../../styles";
 
 const Inicio = () => {
@@ -8,6 +9,7 @@ const Inicio = () => {
             <Header />
             <MainContainer>
                 <TelaInicio />
+                <Projects />
             </MainContainer>
         </>
     );
