@@ -2,7 +2,7 @@ import { BrowserRouter, Route, Routes } from 'react-router-dom';
 
 import Inicio from '../pages/Home';
 import Projects from '../pages/Projects';
-import Header from '../components/Header';
+import Header from '../containers/Header';
 
 export default function Router() {
     return (

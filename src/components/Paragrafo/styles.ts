@@ -4,7 +4,9 @@ import type { Props } from '.'
 import variaveis from '../../styles/variaveis'
 
 export const P = styled.p<Props>`
-  font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '14px')};
+  text-align: center;
+  font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '20px')};
   color: ${variaveis.three};
   line-height: 22px;
+  margin-bottom: 8px;
 `

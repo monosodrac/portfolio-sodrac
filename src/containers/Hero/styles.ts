@@ -32,13 +32,13 @@ const words = keyframes`
         content: "Bem-vindo ao meu portfólio pessoal";
     }
     41%, 60% {
-        content: "Navegue pela barra de cabeçalho";
+        content: "Navegue pelas abas no cabeçalho 🚀";
     }
     61%, 80% {
-        content: "Este é o ambiente inicial";
+        content: "Pegue um café ☕️ e aproveite";
     }
     81%, 100% {
-        content: "Pegue um café ☕️ e aproveite";
+        content: "💻 return;";
     }
 `
 const cursor = keyframes`

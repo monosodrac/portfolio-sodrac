@@ -1,6 +1,6 @@
 import * as S from './styles'
 import { Container } from "../../styles";
-import Avatar from '../Avatar';
+import Avatar from '../../components/Avatar';
 
 export default function Header() {
     return (

@@ -7,8 +7,8 @@ import { Descricao, SidebarContainer } from './styles'
 const Sidebar = () => (
   <aside>
     <SidebarContainer>
-      <Titulo fontSize={'20'}>Mono Cardoso</Titulo>
-      <Descricao tipo="principal" fontSize={12}>
+      <Titulo fontSize={'24'}>Mono Cardoso</Titulo>
+      <Descricao tipo="principal" fontSize={20}>
         Desenvolvedor Full-Stack Python - EBAC | Técnico em Informática para
         Internet - SENAC
       </Descricao>

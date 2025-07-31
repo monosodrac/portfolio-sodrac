@@ -4,9 +4,8 @@ import { GithubSecao } from './styles'
 
 const Sobre = () => (
   <section>
-    <Titulo fontSize={'16'}>Sobre mim</Titulo>
-    <Paragrafo tipo="principal">Hi Im Mono Cardoso! ✌🏻</Paragrafo>
-    <Paragrafo tipo="principal">🔭 Im a Full Stack Web Developer</Paragrafo>
+    <Titulo fontSize={'24'}>Sobre mim</Titulo>
+    <Paragrafo tipo="principal">💻 Im a Full Stack Web Developer</Paragrafo>
     <Paragrafo tipo="principal">
       👯 Im looking to collaborate on Mobile Apps and Software Development
     </Paragrafo>
