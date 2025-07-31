@@ -1,29 +1,28 @@
 import styled from "styled-components";
 import { Link } from "react-router-dom";
+import variaveis from "../../styles/variaveis";
 
 export const Header = styled.header`
     position: fixed;
     top: 0;
     width: 100%;
-    background-color: transparent;
+    height: 5rem;
+    background-color: #000;
+    box-shadow: 0px 0px 20px 20px #000000;
+    z-index: 999;
 `
 
 export const AreaHeader = styled.div`
     display: flex;
     justify-content: center;
     align-items: center;
+    text-align: center;
     height: 5rem;
     background-color: transparent;
 `
 
 export const Title = styled(Link)`
-    padding: 1rem;
-    font-size: 1rem;
-    font-weight: bolder;
-    text-decoration: none;
-    color: #fff;
-    border-bottom: 1px solid transparent;
-    background-color: transparent;
+    border-radius: 50%;
 `
 
 export const List = styled.ul`
@@ -46,14 +45,14 @@ export const List = styled.ul`
 
 export const ListLinks = styled(Link)`
     padding: 1rem;
-    font-size: 1rem;
-    font-weight: bolder;
+    font-size: 1.5rem;
+    font-weight: bold;
     text-decoration: none;
-    color: #fff;
+    color: ${variaveis.three};
     border-bottom: 1px solid transparent;
     background-color: transparent;
 
     &:hover {
-        border-color: #fff;
+        border-color: ${variaveis.three};
     }
 `

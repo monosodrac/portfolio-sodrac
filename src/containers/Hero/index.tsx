@@ -1,16 +1,25 @@
 import Frase from '../../components/Phrase';
+import Sidebar from '../Sidebar';
+import Sobre from '../Sobre';
 import * as S from './styles';
 
-const TelaInicio = () => {
+const Hero = () => {
     return (
         <>
-            <S.Livro>
+            <S.AnimatedText>
+                <span></span>
+            </S.AnimatedText>
+            <S.Book>
                 <Frase />
-            </S.Livro>
-            <S.Inicio>
-            </S.Inicio>
+            </S.Book>
+            <S.Start>
+                <Sidebar />
+                <main>
+                    <Sobre />
+                </main>
+            </S.Start>
         </>
     );
 };
 
-export default TelaInicio;
+export default Hero;

@@ -1,13 +1,11 @@
 import styled, { createGlobalStyle } from 'styled-components';
 
-import variaveis from './variaveis';
-
 const EstiloGlobal = createGlobalStyle`
     * {
         margin:0;
         padding:0;
         box-sizing:border-box;
-        font-family:Roboto, sans-serif;
+        font-family: "Cutive Mono", monospace;
         list-style:none;
         background-color: #000;
     }
@@ -24,6 +22,15 @@ export const Container = styled.div`
         margin: 0;
         padding: 0;
     }
+`
+
+export const BookContainer = styled.main`
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    min-height: 100vh;
 `
 
 export const MainContainer = styled.main`

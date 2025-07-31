@@ -1,5 +1,10 @@
 export default {
-    vermelho: '#C23616',
-    verde: '#44BD32',
-    azulEscuro: '#2F3640'
+    primary: '#000',
+    secondary: '#fff',
+    
+    // Matrix
+    one: '#0D0208',
+    two: '#003B00',
+    three: '#008F11',
+    four: '#00FF41',
 }

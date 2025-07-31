@@ -1,5 +1,6 @@
 import * as S from './styles'
 import { Container } from "../../styles";
+import Avatar from '../Avatar';
 
 export default function Header() {
     return (
@@ -8,21 +9,21 @@ export default function Header() {
                 <S.AreaHeader>
                     <Container>
                         <S.Title to="/">
-                            MONOSODRAC
+                            <Avatar />
                         </S.Title>
                         <S.List>
                             <li>
-                                <S.ListLinks to="/">
+                                <S.ListLinks to="/projetos">
                                     Projetos
                                 </S.ListLinks>
                             </li>
                             <li>
-                                <S.ListLinks to="/">
+                                <S.ListLinks to="/experiencia">
                                     Experiência
                                 </S.ListLinks>
                             </li>
                             <li>
-                                <S.ListLinks to="/">
+                                <S.ListLinks to="/formacao">
                                     Formação
                                 </S.ListLinks>
                             </li>

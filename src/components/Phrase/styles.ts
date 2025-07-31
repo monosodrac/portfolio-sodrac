@@ -1,4 +1,5 @@
 import styled from "styled-components";
+import variaveis from "../../styles/variaveis";
 
 export const Frases = styled.div`
     display: flex;
@@ -25,9 +26,9 @@ export const Texto = styled.span`
     max-width: 100%;
     line-height: 2rem;
     font-size: 1rem;
-    background-color: #fff;
-    color: #fff;
-    filter: blur(5px);
+    background-color: ${variaveis.three};
+    color: ${variaveis.three};
+    filter: blur(8px);
     cursor: default;
     
 `

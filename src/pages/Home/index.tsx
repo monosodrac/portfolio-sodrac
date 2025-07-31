@@ -1,16 +1,12 @@
-import Header from "../../components/Header";
-import TelaInicio from "../../containers/Hero";
-import Projects from "../../containers/Projects";
-import { MainContainer } from "../../styles";
+import Hero from "../../containers/Hero";
+import { BookContainer } from "../../styles";
 
 const Inicio = () => {
     return (
         <>
-            <Header />
-            <MainContainer>
-                <TelaInicio />
-                <Projects />
-            </MainContainer>
+            <BookContainer>
+                <Hero />
+            </BookContainer>
         </>
     );
 };

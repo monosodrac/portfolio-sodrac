@@ -1,15 +1,86 @@
 import styled from "styled-components";
+import variaveis from "../../styles/variaveis";
+import { keyframes } from "styled-components";
 
-export const Livro = styled.div`
+export const Book = styled.div`
     position: absolute;
-    top: 50%;
+    top: 70%;
     background-color: transparent;
-    z-index: 0;
 `
 
-export const Inicio = styled.div`
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
+export const Start = styled.div`
+    padding-top: 7rem;
     min-height: 100vh;
+    max-width: 1024px;
+    width: 100%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    column-gap: 56px;
+
+    @media (max-width: 768px) {
+        max-width: 80%;
+        display: block;
+    }
+`
+
+const words = keyframes`
+    0%, 20% {
+        content: "Olá! meu nome é Mono";
+    }
+    21%, 40% {
+        content: "Bem-vindo ao meu portfólio pessoal";
+    }
+    41%, 60% {
+        content: "Navegue pela barra de cabeçalho";
+    }
+    61%, 80% {
+        content: "Este é o ambiente inicial";
+    }
+    81%, 100% {
+        content: "Pegue um café ☕️ e aproveite";
+    }
+`
+const cursor = keyframes`
+    0% {
+        border-left: 28px solid ${variaveis.primary};
+    }
+`
+const write = keyframes`
+    10%, 15%, 30%, 35%, 50%, 55%, 70%, 75%, 90%, 95% {
+        width: 0;
+    } 
+    5%, 20%, 25%, 40%, 45%, 60%, 65%, 80%, 85% {
+        width: calc(100% + 4px);
+    }
+`
+export const AnimatedText = styled.div`
+    position: absolute;
+    top: 55%;
+    text-align: center;
+    font-size: 2rem;
+    font-weight: 500;
+
+    span {
+        position: relative;
+        background-color: transparent;
+        
+        &::before {
+            content: "";
+            color: ${variaveis.three};
+            animation: ${words} 20s infinite;
+        }
+        
+        &::after {
+            content: "";
+            position: absolute;
+            height: 125%;
+            border-left: 28px solid #ddd;
+            right: -32px;
+            opacity: 1;
+            animation: ${cursor} .8s infinite, ${write} 20s steps(15) infinite;
+            width: calc(100% + 4px);
+            background-color: ${variaveis.primary};
+        }
+    }
 `
