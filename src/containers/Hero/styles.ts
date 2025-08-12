@@ -18,9 +18,10 @@ export const Start = styled.div`
     grid-template-columns: 1fr 1fr;
     column-gap: 56px;
 
-    @media (max-width: 768px) {
-        max-width: 80%;
+    @media (max-width: 1060px) {
         display: block;
+        padding-top: 35vh;
+        max-width: 80%;
     }
 `
 
@@ -60,6 +61,11 @@ export const AnimatedText = styled.div`
     text-align: center;
     font-size: 2rem;
     font-weight: 500;
+    
+    @media (max-width: 767px) {
+        top: 85%;
+        font-size: 1rem;
+    }
 
     span {
         position: relative;

@@ -78,4 +78,123 @@ export const project = [
         Bootstrap`,
         link: "https://lotus-cafe.vercel.app/",
     },
+    // {
+    //     id: 8,
+    //     img: PaxP,
+    //     title: "Clone da Pax Pneus",
+    //     desc: `HTML
+    //     SCSS
+    //     GulpJS
+    //     CSS Animations`,
+    //     link: "https://clone-paxpneus.vercel.app/",
+    // },
+    // {
+    //     id: 9,
+    //     img: Calc,
+    //     title: "Calculadora Aritmética",
+    //     desc: `VueJS
+    //     Bootstrap
+    //     Layout Responsivo`,
+    //     link: "https://calculadora-aritmetica-sodrac.vercel.app/",
+    // },
+    // {
+    //     id: 10,
+    //     img: Tess,
+    //     title: "Tesseract Store",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap
+    //     jQuery`,
+    //     link: "https://tesseract-store.vercel.app/",
+    // },
+    // {
+    //     id: 11,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
+    // {
+    //     id: 12,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
+    // {
+    //     id: 13,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
+    // {
+    //     id: 14,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
+    // {
+    //     id: 15,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
+    // {
+    //     id: 16,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
+    // {
+    //     id: 17,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
+    // {
+    //     id: 18,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
+    // {
+    //     id: 19,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
+    // {
+    //     id: 20,
+    //     img: LtCf,
+    //     title: "Lótus Café",
+    //     desc: `HTML
+    //     CSS
+    //     Bootstrap`,
+    //     link: "https://lotus-cafe.vercel.app/",
+    // },
 ]

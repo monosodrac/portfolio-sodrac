@@ -1,10 +1,10 @@
 import ProjectsContainer from "../../containers/Projects";
-import * as S from "./styles";
+import {Projects as Proj} from "./styles";
 
 const Projects = () => (
-    <S.Projects id="projects">
+    <Proj>
         <ProjectsContainer />
-    </S.Projects>
+    </Proj>
 );
 
 export default Projects;

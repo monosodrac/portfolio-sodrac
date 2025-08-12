@@ -1,4 +1,5 @@
 import styled, { createGlobalStyle } from 'styled-components';
+import variaveis from './variaveis';
 
 const EstiloGlobal = createGlobalStyle`
     * {
@@ -8,19 +9,8 @@ const EstiloGlobal = createGlobalStyle`
         font-family: "Cutive Mono", monospace;
         list-style:none;
         background-color: #000;
-    }
-`
-
-export const Container = styled.div`
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    width: 90%;
-    background-color: transparent;
-
-    ul {
-        margin: 0;
-        padding: 0;
+        scrollbar-color: ${variaveis.three} ${variaveis.primary};
+        scrollbar-width: thin;
     }
 `
 

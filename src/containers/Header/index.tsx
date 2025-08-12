@@ -1,13 +1,47 @@
+import { useMediaQuery } from "react-responsive";
+
 import * as S from './styles'
-import { Container } from "../../styles";
 import Avatar from '../../components/Avatar';
 
 export default function Header() {
-    return (
+    const isMobile = useMediaQuery({ maxWidth: 768 });
+
+    return isMobile ? (
         <>
             <S.Header>
                 <S.AreaHeader>
-                    <Container>
+                    <S.ContainerHeader>
+                        <S.List>
+                            <li>
+                                <S.ListLinks to="/Home">
+                                    Home
+                                </S.ListLinks>
+                            </li>
+                            <li>
+                                <S.ListLinks to="/projetos">
+                                    Projetos
+                                </S.ListLinks>
+                            </li>
+                            <li>
+                                <S.ListLinks to="/experiencia">
+                                    Experiência
+                                </S.ListLinks>
+                            </li>
+                            <li>
+                                <S.ListLinks to="/formacao">
+                                    Formação
+                                </S.ListLinks>
+                            </li>
+                        </S.List>
+                    </S.ContainerHeader>
+                </S.AreaHeader>
+            </S.Header>
+        </>
+    ) : (
+        <>
+            <S.Header>
+                <S.AreaHeader>
+                    <S.ContainerHeader>
                         <S.Title to="/">
                             <Avatar />
                         </S.Title>
@@ -28,9 +62,10 @@ export default function Header() {
                                 </S.ListLinks>
                             </li>
                         </S.List>
-                    </Container>
+                    </S.ContainerHeader>
                 </S.AreaHeader>
             </S.Header>
         </>
+
     );
 };

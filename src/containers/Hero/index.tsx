@@ -1,10 +1,21 @@
+import { useMediaQuery } from "react-responsive";
+
 import Frase from '../../components/Phrase';
 import Sidebar from '../../components/Sidebar';
 import Sobre from '../../components/Sobre';
 import * as S from './styles';
 
 const Hero = () => {
-    return (
+    const isMobile = useMediaQuery({ maxWidth: 1060 });
+
+    return isMobile ? (
+        <>
+            <S.Start>
+                <Sidebar />
+                <Sobre />
+            </S.Start>
+        </>
+    ) : (
         <>
             <S.AnimatedText>
                 <span></span>
@@ -14,9 +25,7 @@ const Hero = () => {
             </S.Book>
             <S.Start>
                 <Sidebar />
-                <main>
-                    <Sobre />
-                </main>
+                <Sobre />
             </S.Start>
         </>
     );
