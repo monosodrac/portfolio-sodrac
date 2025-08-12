@@ -13,21 +13,26 @@ const ProjectsContainer = () => {
     }, []);
 
     const [, setCurrentPage] = useState<number>(0);
+    const [isScrolling, setIsScrolling] = useState<boolean>(false);
 
     useEffect(() => {
         const handleWheel = (e: WheelEvent) => {
-            e.preventDefault(); // Impede o scroll padrão
-            const direction = e.deltaY > 0 ? 1 : -1; // 1 = descer, -1 = subir
+            if (isScrolling) return; // Impede múltiplos scrolls seguidos
+            e.preventDefault();
+
+            const direction = e.deltaY > 0 ? 1 : -1;
 
             setCurrentPage((prev) => {
                 const totalSections = Math.ceil(document.body.scrollHeight / window.innerHeight);
                 let nextPage = prev + direction;
 
-                // Impede passar do início ou final
                 if (nextPage < 0) nextPage = 0;
                 if (nextPage >= totalSections) nextPage = totalSections - 1;
 
-                // Faz o scroll suave para a nova "página"
+                // Ativa travamento temporário do scroll
+                setIsScrolling(true);
+                setTimeout(() => setIsScrolling(false), 800);
+
                 window.scrollTo({
                     top: nextPage * window.innerHeight,
                     behavior: "smooth",
@@ -42,7 +47,7 @@ const ProjectsContainer = () => {
         return () => {
             window.removeEventListener("wheel", handleWheel);
         };
-    }, []);
+    }, [isScrolling]);
 
     return (
         <S.Cards>

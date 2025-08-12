@@ -13,7 +13,7 @@ export default function Header() {
                     <S.ContainerHeader>
                         <S.List>
                             <li>
-                                <S.ListLinks to="/Home">
+                                <S.ListLinks to="/">
                                     Home
                                 </S.ListLinks>
                             </li>

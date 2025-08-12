@@ -2,18 +2,14 @@ import styled from "styled-components";
 import variaveis from "../../styles/variaveis";
 
 export const Cards = styled.ul`
-    display: grid;
-    grid-template-columns: 1fr 1fr 1fr;
-    grid-column-gap: 10rem;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    column-gap: 5vw;
     padding: 0;
-    margin: 0 auto;
-    max-width: 994px;
     list-style: none;
     
-    @media (max-width: 1800px) {
-        grid-template-columns: 1fr 1fr;
-    }
-
     @media (max-width: 1024px) {
         display: block;
     }
@@ -37,7 +33,6 @@ export const Card = styled.li`
     flex-direction: column;
     align-items: center;
     padding: 1rem;
-    margin: 0 auto;
     border: 1px solid transparent;
     border-radius: 5px;
     
@@ -51,7 +46,7 @@ export const Card = styled.li`
 `
 
 export const Image = styled.img`
-    height: 15rem;
+    max-height: 15rem;
 
     @media (max-width: 767px) {
         width: 100%;
