@@ -8,6 +8,10 @@
       "path": "./tsconfig.node.json"
     }
   ],
-  "noUnusedLocals": false,
-  "noUnusedParameters": false
+  "compilerOptions": {
+    "target": "esnext",
+    "module": "esnext",
+    "noUnusedLocals": true,
+    "noUnusedParameters": true
+  }
 }
