@@ -12,7 +12,7 @@ const ProjectsContainer = () => {
         AOS.init({});
     }, []);
 
-    const [currentPage, setCurrentPage] = useState<number>(0);
+    const [, setCurrentPage] = useState<number>(0);
 
     useEffect(() => {
         const handleWheel = (e: WheelEvent) => {
