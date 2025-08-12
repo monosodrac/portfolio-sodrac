@@ -9,15 +9,11 @@ export const Cards = styled.ul`
     column-gap: 5vw;
     padding: 0;
     list-style: none;
-    
-    @media (max-width: 1024px) {
-        display: block;
-    }
+    overflow-x: hidden;
     
     @media (max-width: 767px) {
         padding-top: 20vh;
         border-color: ${variaveis.three};
-        overflow-x: hidden;
     }
 `
 
@@ -35,6 +31,8 @@ export const Card = styled.li`
     padding: 1rem;
     border: 1px solid transparent;
     border-radius: 5px;
+    max-height: 80vh;
+    min-width: 35vw;
     
     @media (max-width: 767px) {
         border-color: ${variaveis.three};
@@ -46,10 +44,11 @@ export const Card = styled.li`
 `
 
 export const Image = styled.img`
-    max-height: 15rem;
+    min-height: auto;
+    max-width: 32vw;
 
     @media (max-width: 767px) {
-        width: 100%;
+        min-width: 70vw;
     }
 `
 
