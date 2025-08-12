@@ -7,6 +7,7 @@ export const P = styled.p<Props>`
   text-align: center;
   font-size: ${(props) => (props.fontSize ? props.fontSize + 'px' : '20px')};
   color: ${variaveis.three};
-  line-height: 22px;
+  line-height: 24px;
   margin-bottom: 8px;
+  white-space: pre-line;
 `

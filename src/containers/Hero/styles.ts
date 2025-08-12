@@ -35,10 +35,10 @@ const words = keyframes`
         content: "Navegue pelas abas no cabeçalho 🚀";
     }
     61%, 80% {
-        content: "Pegue um café ☕️ e aproveite";
+        content: "Pegue um café ☕️";
     }
     81%, 100% {
-        content: "💻 return;";
+        content: "...3... ...2... ...1...";
     }
 `
 const cursor = keyframes`

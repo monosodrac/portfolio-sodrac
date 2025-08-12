@@ -1,6 +1,6 @@
 import Frase from '../../components/Phrase';
-import Sidebar from '../Sidebar';
-import Sobre from '../Sobre';
+import Sidebar from '../../components/Sidebar';
+import Sobre from '../../components/Sobre';
 import * as S from './styles';
 
 const Hero = () => {

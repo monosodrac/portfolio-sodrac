@@ -1,5 +1,4 @@
-import Paragrafo from '../../components/Paragrafo'
-import Titulo from '../../components/Titulo'
+import Titulo from '../Titulo'
 
 import { Descricao, SidebarContainer } from './styles'
 
