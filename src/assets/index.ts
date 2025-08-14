@@ -1,3 +1,4 @@
+// Projetos
 import AltB from './imgs/altbusca.png';
 import Cont from './imgs/contact-list.png';
 import Tera from './imgs/ponte-para-terabitia.png';
@@ -6,7 +7,13 @@ import LtCf from './imgs/lotus-cafe.png';
 import Tess from './imgs/tesseract-store.png';
 import Calc from './imgs/calculadora-aritmetica.png';
 
-export const project = [
+// Certificados
+import CertBack from './imgs/cert-backend.jpg';
+import CertFront from './imgs/cert-frontend.jpg';
+import CertIA from './imgs/cert-ia.png';
+import CertArduino from './imgs/cert-arduino.png';
+
+export const projects = [
     {
         id: 1,
         img: AltB,
@@ -197,4 +204,49 @@ export const project = [
     //     Bootstrap`,
     //     link: "https://lotus-cafe.vercel.app/",
     // },
-]
+];
+
+export const Certificates = [
+    {
+        id: 1,
+        img: CertBack,
+        title: 'Certificado da Qualificação Técnica de Desenvolvedor Back-End',
+        link: 'https://drive.google.com/file/d/1v5AuC3ushQWYLVCNN-tDuGQrZc92ZCI5/view?usp=sharing',
+    },
+    {
+        id: 2,
+        img: CertFront,
+        title: 'Certificado da Qualificação Técnica de Desenvolvedor Front-End',
+        link: 'https://drive.google.com/file/d/1VJD2Q_KcMD1t_s7OafpuQYNcCkEnGw5l/view?usp=sharing',
+    },
+    {
+        id: 3,
+        img: 'indisponível',
+        title: 'Diploma de Técnico em Informática para Internet',
+        link: 'link-indisponivel',
+    },
+    {
+        id: 4,
+        img: 'indisponível',
+        title: 'Certificado da Qualificação Técnica de Desenvolvedor Mobile',
+        link: 'link-indisponivel',
+    },
+    {
+        id: 5,
+        img: CertIA,
+        title: 'Inteligência Artificial - EBAC',
+        link: 'https://drive.google.com/file/d/1PZCd0R2F0KUt00I6rcgb4dYnM6L-IPbQ/view?usp=sharing',
+    },
+    {
+        id: 6,
+        img: CertArduino,
+        title: 'Programação com Arduino',
+        link: 'https://drive.google.com/file/d/1AFZwHlYV66pUTqjzrEMVGm2Mx5NXfoew/view?usp=sharing',
+    },
+    {
+        id: 7,
+        img: 'indisponível',
+        title: 'Photoshop - tratamento de Imagem',
+        link: 'https://drive.google.com/file/d/1_IPITvHUHqGg_5MlHnpwS1I6kXjWxAT_/view?usp=sharing',
+    },
+];

@@ -2,7 +2,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import { useEffect, useState } from 'react';
 
-import { project } from "../../assets";
+import { projects } from "../../assets";
 import * as S from "./styles";
 import Titulo from "../../components/Titulo";
 import Paragrafo from "../../components/Paragrafo";
@@ -51,7 +51,7 @@ const ProjectsContainer = () => {
 
     return (
         <S.Cards>
-            {project.map((item, index) => (
+            {projects.map((item, index) => (
                 <div
                     style={{ height: "100vh" }}
                     data-aos={item.id % 2 !== 0 ? "fade-right" : "fade-left"}

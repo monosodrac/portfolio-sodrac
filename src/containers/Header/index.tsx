@@ -23,13 +23,13 @@ export default function Header() {
                                 </S.ListLinks>
                             </li>
                             <li>
-                                <S.ListLinks to="/experiencia">
-                                    Experiência
+                                <S.ListLinks to="/formacao">
+                                    Formação
                                 </S.ListLinks>
                             </li>
                             <li>
-                                <S.ListLinks to="/formacao">
-                                    Formação
+                                <S.ListLinks to="/contato">
+                                    Contato
                                 </S.ListLinks>
                             </li>
                         </S.List>
@@ -52,13 +52,13 @@ export default function Header() {
                                 </S.ListLinks>
                             </li>
                             <li>
-                                <S.ListLinks to="/experiencia">
-                                    Experiência
+                                <S.ListLinks to="/formacao">
+                                    Formação
                                 </S.ListLinks>
                             </li>
                             <li>
-                                <S.ListLinks to="/formacao">
-                                    Formação
+                                <S.ListLinks to="/contato">
+                                    Contato
                                 </S.ListLinks>
                             </li>
                         </S.List>
