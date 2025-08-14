@@ -56,9 +56,9 @@ const ProjectsContainer = () => {
                     style={{ height: "100vh" }}
                     data-aos={item.id % 2 !== 0 ? "fade-right" : "fade-left"}
                     data-aos-duration="800"
+                    key={index}
                 >
                     <S.Link
-                        key={index}
                         title={item.title}
                         href={item.link}
                         target="_blank"

@@ -3,10 +3,10 @@ import Paragrafo from '../Paragrafo'
 
 const Sobre = () => (
   <section>
-    <Titulo fontSize={'24'}>Sobre mim</Titulo>
-    <Paragrafo tipo="principal">💻 Sou um Desenvolvedor Full-Stack</Paragrafo>
-    <Paragrafo tipo="principal">☕️ Apaixonado por café</Paragrafo>
-    <Paragrafo tipo="principal">🎸 E também sou músico</Paragrafo>
+    <Titulo textAlign={'center'} fontSize={'24'}>Sobre mim</Titulo>
+    <Paragrafo textAlign={'center'} tipo="principal">💻 Sou um Desenvolvedor Full-Stack</Paragrafo>
+    <Paragrafo textAlign={'center'} tipo="principal">☕️ Apaixonado por café</Paragrafo>
+    <Paragrafo textAlign={'center'} tipo="principal">🎸 E também sou músico</Paragrafo>
   </section>
 )
 
