@@ -3,7 +3,7 @@ import * as S from "./styles";
 
 const ErrorPage = () => (
     <S.ErrorP>
-        <Titulo>
+        <Titulo textAlign={'center'}>
             Sinto muito, mas o certificado ainda não foi entregue pela instituição.
         </Titulo>
     </S.ErrorP>
