@@ -10,7 +10,7 @@ const Contact = () => (
         <section>
             <Title>
                 <Titulo>
-                    Redes Sociais:
+                    Contato:
                 </Titulo>
             </Title>
             <a
