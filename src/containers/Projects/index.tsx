@@ -53,7 +53,6 @@ const ProjectsContainer = () => {
         <S.Cards>
             {projects.map((item, index) => (
                 <div
-                    style={{ height: "100vh" }}
                     data-aos={item.id % 2 !== 0 ? "fade-right" : "fade-left"}
                     data-aos-duration="800"
                     key={index}
@@ -67,8 +66,8 @@ const ProjectsContainer = () => {
                         <S.Card>
                             <S.Image src={item.img} alt={item.title} />
                             <S.Desc>
-                                <Titulo fontSize={'24'}>{item.title}</Titulo>
-                                <Paragrafo tipo="principal">{item.desc}</Paragrafo>
+                                <Titulo textAlign={'center'} fontSize={'24'}>{item.title}</Titulo>
+                                <Paragrafo textAlign={'center'} tipo="principal">{item.desc}</Paragrafo>
                             </S.Desc>
                         </S.Card>
                     </S.Link>

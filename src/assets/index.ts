@@ -20,8 +20,7 @@ export const projects = [
         title: "AltBusca",
         desc: `Vite + React;
         Bootstrap/React Bootstrap;
-        React Icons;
-        React Input Mask;
+        Requisição de API (viaCEP);
         React Router Dom;`,
         link: "https://alt-busca.vercel.app/",
     },

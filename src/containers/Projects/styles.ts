@@ -10,6 +10,15 @@ export const Cards = styled.ul`
     padding: 0;
     list-style: none;
     overflow-x: hidden;
+
+    div {
+        height: 100vh;
+
+        @media (max-width: 575px) {
+            height: fit-content;
+            margin-bottom: 2rem;
+        }
+    }
     
     @media (max-width: 767px) {
         padding-top: 20vh;
