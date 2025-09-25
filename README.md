@@ -1,69 +1,67 @@
-# React + TypeScript + Vite
+<h1 align="center" style="font-weight: bold;">Portfólio Mono Cardoso 💻</h1>
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+<p align="center">
+ <a href="#technologies">Technologies</a> • 
+ <a href="#started">Getting Started</a> • 
+  <a href="#colab">Collaborators</a> •
+ <a href="#contribute">Contribute</a>
+</p>
 
-Currently, two official plugins are available:
+<p align="center">
+    <b>
+      Meu portfólio contém: <br />
+      Projetos | Formação | Contato
+    </b>
+</p>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+<p align="center">
+     <a href="https://monosodrac.vercel.app/">📱 Visite o Projeto</a>
+</p>
 
-## Expanding the ESLint configuration
+<h2 id="layout">🎨 Layout</h2>
 
-If you are developing a production application, we recommend updating the configuration to enable type-aware lint rules:
+<p align="center">
+    <img src="./src/assets/imgs/banner-portf.png" alt="Homepage do portfólio" width="400px">
+</p>
 
-```js
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
+<h2 id="technologies">💻 Technologies</h2>
 
-      // Remove tseslint.configs.recommended and replace with this
-      ...tseslint.configs.recommendedTypeChecked,
-      // Alternatively, use this for stricter rules
-      ...tseslint.configs.strictTypeChecked,
-      // Optionally, add this for stylistic rules
-      ...tseslint.configs.stylisticTypeChecked,
+- react
+- styled components
+- react router dom
+- aos library
 
-      // Other configs...
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+<h2 id="started">🚀 Getting started</h2>
+
+<h3>Prerequisites</h3>
+
+- [NodeJS](https://github.com/)
+
+<h3>Cloning</h3>
+
+```bash
+git clone https://github.com/monosodrac/portfolio-sodrac.git
 ```
 
-You can also install [eslint-plugin-react-x](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-x) and [eslint-plugin-react-dom](https://github.com/Rel1cx/eslint-react/tree/main/packages/plugins/eslint-plugin-react-dom) for React-specific lint rules:
+<h3>Starting</h3>
 
-```js
-// eslint.config.js
-import reactX from 'eslint-plugin-react-x'
-import reactDom from 'eslint-plugin-react-dom'
-
-export default tseslint.config([
-  globalIgnores(['dist']),
-  {
-    files: ['**/*.{ts,tsx}'],
-    extends: [
-      // Other configs...
-      // Enable lint rules for React
-      reactX.configs['recommended-typescript'],
-      // Enable lint rules for React DOM
-      reactDom.configs.recommended,
-    ],
-    languageOptions: {
-      parserOptions: {
-        project: ['./tsconfig.node.json', './tsconfig.app.json'],
-        tsconfigRootDir: import.meta.dirname,
-      },
-      // other options...
-    },
-  },
-])
+```bash
+cd portfolio-sodrac
+npm install
+npm run dev
 ```
+
+<h2 id="colab">Author</h2>
+
+<table>
+  <tr>
+    <td align="center">
+      <a href="https://linktr.ee/monosodrac">
+        <img src="https://avatars.githubusercontent.com/u/141099551?v=4" width="100px;" alt="Mono Cardoso Profile Picture"/><br>
+        <sub>
+          <b>Mono Cardoso</b>
+        </sub>
+      </a>
+    </td>
+  </tr>
+</table>
