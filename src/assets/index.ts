@@ -8,6 +8,8 @@ import Tess from './imgs/tesseract-store.png';
 import Calc from './imgs/calculadora-aritmetica.png';
 
 // Certificados
+import DiplTII from './imgs/diploma-tii.jpg';
+import CertMobile from './imgs/cert-mobile.jpg';
 import CertBack from './imgs/cert-backend.jpg';
 import CertFront from './imgs/cert-frontend.jpg';
 import CertIA from './imgs/cert-ia.png';
@@ -208,27 +210,27 @@ export const projects = [
 export const Certificates = [
     {
         id: 1,
+        img: DiplTII,
+        title: 'Diploma de Técnico em Informática para Internet',
+        link: 'https://drive.google.com/file/d/1nZBmid9Ha2OTstJcB1Tejz7hEToeSEjw/view?usp=sharing',
+    },
+    {
+        id: 2,
+        img: CertMobile,
+        title: 'Certificado da Qualificação Técnica de Desenvolvedor Mobile',
+        link: 'https://drive.google.com/file/d/1PqKMC0EpAN2wCdvtcmVKvISWfwAsdMQX/view?usp=sharing',
+    },
+    {
+        id: 3,
         img: CertBack,
         title: 'Certificado da Qualificação Técnica de Desenvolvedor Back-End',
         link: 'https://drive.google.com/file/d/1v5AuC3ushQWYLVCNN-tDuGQrZc92ZCI5/view?usp=sharing',
     },
     {
-        id: 2,
+        id: 4,
         img: CertFront,
         title: 'Certificado da Qualificação Técnica de Desenvolvedor Front-End',
         link: 'https://drive.google.com/file/d/1VJD2Q_KcMD1t_s7OafpuQYNcCkEnGw5l/view?usp=sharing',
-    },
-    {
-        id: 3,
-        img: 'indisponível',
-        title: 'Diploma de Técnico em Informática para Internet',
-        link: 'link-indisponivel',
-    },
-    {
-        id: 4,
-        img: 'indisponível',
-        title: 'Certificado da Qualificação Técnica de Desenvolvedor Mobile',
-        link: 'link-indisponivel',
     },
     {
         id: 5,
