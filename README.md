@@ -3,8 +3,7 @@
 <p align="center">
  <a href="#technologies">Technologies</a> • 
  <a href="#started">Getting Started</a> • 
-  <a href="#colab">Collaborators</a> •
- <a href="#contribute">Contribute</a>
+ <a href="#author">Author</a>
 </p>
 
 <p align="center">
@@ -51,7 +50,7 @@ npm install
 npm run dev
 ```
 
-<h2 id="colab">Author</h2>
+<h2 id="author">Author</h2>
 
 <table>
   <tr>
