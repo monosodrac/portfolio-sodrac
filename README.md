@@ -55,7 +55,7 @@ npm run dev
 <table>
   <tr>
     <td align="center">
-      <a href="https://linktr.ee/monosodrac">
+      <a target="_blank" href="https://linktr.ee/monosodrac">
         <img src="https://avatars.githubusercontent.com/u/141099551?v=4" width="100px;" alt="Mono Cardoso Profile Picture"/><br>
         <sub>
           <b>Mono Cardoso</b>
