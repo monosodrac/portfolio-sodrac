@@ -1,4 +1,5 @@
 // Projetos
+import Epla from './imgs/e-play.png';
 import AltB from './imgs/altbusca.png';
 import Cont from './imgs/contact-list.png';
 import Tera from './imgs/ponte-para-terabitia.png';
@@ -18,6 +19,16 @@ import CertArduino from './imgs/cert-arduino.png';
 export const projects = [
     {
         id: 1,
+        img: Epla,
+        title: "Eplay",
+        desc: `React;
+        TypeScript;
+        Props;
+        React Router Dom;`,
+        link: "https://eplay-monosodrac.vercel.app/",
+    },
+    {
+        id: 2,
         img: AltB,
         title: "AltBusca",
         desc: `Vite + React;
@@ -27,7 +38,7 @@ export const projects = [
         link: "https://alt-busca.vercel.app/",
     },
     {
-        id: 2,
+        id: 3,
         img: Cont,
         title: "Lista de Contatos",
         desc: `React + Vite
@@ -38,7 +49,7 @@ export const projects = [
         link: "https://contact-list-monosodrac.vercel.app/",
     },
     {
-        id: 3,
+        id: 4,
         img: Tera,
         title: "Ponte Para Terabítia",
         desc: `HTML
@@ -49,7 +60,7 @@ export const projects = [
         link: "https://ponte-para-terabitia.vercel.app/",
     },
     {
-        id: 4,
+        id: 5,
         img: PaxP,
         title: "Clone da Pax Pneus",
         desc: `HTML
@@ -59,7 +70,7 @@ export const projects = [
         link: "https://clone-paxpneus.vercel.app/",
     },
     {
-        id: 5,
+        id: 6,
         img: Calc,
         title: "Calculadora Aritmética",
         desc: `VueJS
@@ -68,7 +79,7 @@ export const projects = [
         link: "https://calculadora-aritmetica-sodrac.vercel.app/",
     },
     {
-        id: 6,
+        id: 7,
         img: Tess,
         title: "Tesseract Store",
         desc: `HTML
@@ -78,7 +89,6 @@ export const projects = [
         link: "https://tesseract-store.vercel.app/",
     },
     {
-        id: 7,
         img: LtCf,
         title: "Lótus Café",
         desc: `HTML
@@ -86,125 +96,6 @@ export const projects = [
         Bootstrap`,
         link: "https://lotus-cafe.vercel.app/",
     },
-    // {
-    //     id: 8,
-    //     img: PaxP,
-    //     title: "Clone da Pax Pneus",
-    //     desc: `HTML
-    //     SCSS
-    //     GulpJS
-    //     CSS Animations`,
-    //     link: "https://clone-paxpneus.vercel.app/",
-    // },
-    // {
-    //     id: 9,
-    //     img: Calc,
-    //     title: "Calculadora Aritmética",
-    //     desc: `VueJS
-    //     Bootstrap
-    //     Layout Responsivo`,
-    //     link: "https://calculadora-aritmetica-sodrac.vercel.app/",
-    // },
-    // {
-    //     id: 10,
-    //     img: Tess,
-    //     title: "Tesseract Store",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap
-    //     jQuery`,
-    //     link: "https://tesseract-store.vercel.app/",
-    // },
-    // {
-    //     id: 11,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
-    // {
-    //     id: 12,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
-    // {
-    //     id: 13,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
-    // {
-    //     id: 14,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
-    // {
-    //     id: 15,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
-    // {
-    //     id: 16,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
-    // {
-    //     id: 17,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
-    // {
-    //     id: 18,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
-    // {
-    //     id: 19,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
-    // {
-    //     id: 20,
-    //     img: LtCf,
-    //     title: "Lótus Café",
-    //     desc: `HTML
-    //     CSS
-    //     Bootstrap`,
-    //     link: "https://lotus-cafe.vercel.app/",
-    // },
 ];
 
 export const Certificates = [
