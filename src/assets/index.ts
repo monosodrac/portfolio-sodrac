@@ -89,6 +89,7 @@ export const projects = [
         link: "https://tesseract-store.vercel.app/",
     },
     {
+        id: 8,
         img: LtCf,
         title: "Lótus Café",
         desc: `HTML
